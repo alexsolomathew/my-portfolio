@@ -65,10 +65,12 @@ const IndexPage = () => {
           <h2>Projects</h2>
           <div className="project-grid">
             <motion.div className="project-card" whileHover={{ scale: 1.05 }}>
-              <h3>Project 1</h3>
-              <p>[Short description]</p>
-              <p><strong>Tech:</strong> [e.g., React, Node]</p>
-              <a href="[Link]" target="_blank">View Project</a>
+              <h3>Personal Porfolio Website</h3>
+              <p>Developed a responsive and visually engaging portfolio using React, showcasing my web development skills and projects.</p>
+              <p><strong>Tech:</strong> React, CSS3, JavaScript, framer-motion, tsparticles</p>
+              <a href="https://alexsolomathew.netlify.app/#home" target="_blank" rel="noopener noreferrer">View Site</a>
+               <br/>
+              <a href="https://github.com/AlexSolomathew/my-portfolio" target="_blank" rel="noopener noreferrer">View Code</a>
             </motion.div>
             <motion.div className="project-card" whileHover={{ scale: 1.05 }}>
               <h3>Project 2</h3>
@@ -108,4 +110,4 @@ const IndexPage = () => {
 };
 
 export default IndexPage;
-export const Head = () => <title>[Your Name] | Web Developer</title>;
+export const Head = () => <title>Alex Solo Mathew | Web Developer</title>;
