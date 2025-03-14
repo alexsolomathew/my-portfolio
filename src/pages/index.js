@@ -73,20 +73,24 @@ const IndexPage = () => {
               <a href="https://github.com/AlexSolomathew/my-portfolio" target="_blank" rel="noopener noreferrer">View Code</a>
             </motion.div>
             <motion.div className="project-card" whileHover={{ scale: 1.05 }}>
-              <h3>Project 2</h3>
-              <p>[Short description]</p>
-              <p><strong>Tech:</strong> [e.g., Gatsby, API]</p>
-              <a href="[Link]" target="_blank">View Project</a>
+              <h3>Weatherman</h3>
+              <p>Designed and built a dynamic, responsive portfolio website using React, featuring real-time weather updates via the OpenWeatherMap API. The site showcases my development skills with smooth animations and an interactive particle background</p>
+              <p><strong>Tech:Gatsby, React, CSS3, JavaScript, Framer Motion, tsParticles, Axios</strong></p>
+              <a href="https://weatherman250.netlify.app/" target="_blank"  rel="noopener noreferrer">View Project</a>
+              <br />
+              <a href="https://github.com/AlexSolomathew/weatherman" target="_blank" rel="noopener noreferrer">View Code</a>
             </motion.div>
             <motion.div className="project-card" whileHover={{ scale: 1.05 }}>
-              <h3>Project 3</h3>
-              <p>[Short description]</p>
-              <p><strong>Tech:</strong> [e.g., JS, CSS]</p>
-              <a href="[Link]" target="_blank">View Project</a>
+              <h3>Snake Game</h3>
+              <p>Designed and deployed an interactive Snake Game using Lovable.dev, featuring Arrow key controls, a timed bonus food system (2x size, color-changing for 10 seconds), and realistic snake visuals (patterns, pointy tail, flickering tongue). Completed and deployed online, demonstrating rapid prototyping, game design, and web development skills.</p>
+              <p><strong>Tech:</strong> Python, Lovable.dev, Web Deployment.</p>
+              <a href="https://slithery-feast-frenzy.lovable.app/" target="_blank"  rel="noopener noreferrer">View Project</a>
+              <br />
+              <a href="https://github.com/alexsolomathew/slithery-feast-frenzy" target="_blank" rel="noopener noreferrer">View Code</a>
             </motion.div>
           </div>
         </motion.section>
-
+ 
         {/* Contact Section */}
         <motion.section
           id="contact"
